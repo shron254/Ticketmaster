@@ -32,7 +32,7 @@ function Header() {
 
 
 {/* Nav Toggle Button */}
-<div className="absolute top-10 right-5 flex md:hidden">
+<div className="absolute top-10 right-5 flex md:hidden z-100">
         {isNavOpen ? (
           <X className="w-8 h-8 text-white cursor-pointer" onClick={toggleNav} />
         ) : (
@@ -42,9 +42,9 @@ function Header() {
 
       {/* Nav Icons */}
       <nav
-        className={`absolute md:-mt-10 top-24 md:ml-96 right-1 w-48 bg-white shadow-md rounded-lg p-5 md:p-0 md:bg-transparent md:static md:shadow-none md:flex ${
+        className={`absolute md:-mt-10 top-32 md:ml-96 right-1 w-48 bg-white shadow-md rounded-lg p-5 md:p-0 z-100 md:bg-transparent md:static md:shadow-none md:flex ${
           isNavOpen ? 'block' : 'hidden'
-        } md:block space-y-3 md:space-y-0 md:space-x-3`}
+        } md:block space-y-3 md:space-y-0 md:space-x-3 z-100`}
       >
         <Link href='/'>
           <h1 className="w-full md:w-24 text-center mx-auto text-blue-900 font-semibold md:border border-b mb-1 border-blue-900 p-2 rounded-md hover:opacity-50 cursor-pointer">Indonesia</h1>
