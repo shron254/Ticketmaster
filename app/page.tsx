@@ -29,7 +29,7 @@ const products = [
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col mt-24">
-    <div className="fixed bg-white w-full -mt-2">
+    <div className="fixed bg-white w-full -mt-2 md:hidden">
       <div className="flex flex-row justify-between p-1 px-4 my-3">
         <button className="border border-black rounded-lg px-2">All</button>
         <button className="border border-black rounded-lg px-2">Seminars</button>
@@ -38,7 +38,7 @@ export default function Home() {
       </div>
     </div>
 
-      <div className="h-20 mt-14 md:w-56 w-full bg-gradient-to-r from-orange-600 to-blue-600 flex flex-row items-center justify-between">
+      <div className="h-20 mt-14 md:w-56 w-full bg-gradient-to-r from-orange-600 to-blue-600 flex flex-row items-center justify-center gap-4 md:hidden">
         <Flower className="ml-4 text-purple-600 w-8 h-8 border rounded-full bg-white p-1" />            
         <div className="m-2">
         <p className=" text-white text-sm">Lowest price guarantee</p>
