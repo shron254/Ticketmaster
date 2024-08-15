@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Lingom from "@/public/images/lingom.jpg";
@@ -18,9 +18,7 @@ import { Flower, ChevronRight, BadgeHelp, Shield } from "lucide-react";
 // Example product data
 const products = [
   { id: '8', name: 'Dear my Love LING & ORM Fan Meeting 2024', image: Lingom, date: '08 Sep 2024', location: 'IMPACT Exhibition Hall 5', price: 'BAHT 7,800' },
-
   { id: '9', name: '2024 KIM SUNG KYU CONCERT[LV3 : Lets Vacay] in Bangkok', image: Vacay, date: '24 Aug 2024', location: 'MCC Hall The Mall', price: 'BAHT 6,000' },
-  
   { id: '10', name: '2024 aespa Live Tour - SYNK: PARALLEL LINE in JAKARTA', image: Easpa, date: '24 Aug 2024', location: 'Jakarta', price: 'IDR 1,455,000' },
   { id: '11', name: '2024 Red Velvet FANCON TOUR HAPPINESS : My Dear, ReVe1uv in Jakarta', image: Revolute, date: '07 Sep 2024', location: 'Jakarta', price: 'IDR 1,785,000' },
   { id: '12', name: '2024 DOYOUNG CONCERT [ Dear Youth, ] in JAKARTA', image: Dearest, date: '21 Sep 2024', location: 'Jakarta', price: 'IDR 1,495,000' },
@@ -28,7 +26,7 @@ const products = [
   { id: '14', name: 'ENHYPEN WORLD TOUR “FATE PLUS” IN JAKARTA - SHOW DAY 1 (AUGUST 17)', image: Enhypen, date: '17 Aug 2024', location: 'Jakarta', price: 'IDR 1,450,000' },
 ];
 
-export default function thailand() {
+export default function Thailand() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const carouselItems = [
@@ -97,17 +95,18 @@ export default function thailand() {
 
       {/* Carousel */}
       <div className="relative h-20 mt-14 md:w-56 w-full overflow-hidden z-10">
-        {carouselItems.map((item, index) => (
-          <div
-            key={item.id}
-            className={`absolute inset-0 flex items-center justify-center transition-transform duration-500 ease-in-out ${item.backgroundColor} ${
-              currentIndex === index ? "translate-x-0" : "translate-x-full"
-            }`}
-            style={{ transform: `translateX(${100 * (index - currentIndex)}%)` }}
-          >
-            {item.content}
-          </div>
-        ))}
+        <div className="flex transition-transform duration-500 ease-in-out"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {carouselItems.map((item) => (
+            <div
+              key={item.id}
+              className={`flex-shrink-0 w-full h-full ${item.backgroundColor}`}
+            >
+              {item.content}
+            </div>
+          ))}
+        </div>
       </div>
       {/* End of Carousel */}
 
