@@ -62,9 +62,7 @@ export default function Footer() {
           <Link href="/terms" className="md:text-sm text-xs hover:text-gray-400">
             Terms of Service
           </Link>
-          <Link href="/terms" className="md:text-sm text-xs hover:text-gray-400">
-            Terms of Service
-          </Link>
+          
         </div>
         
         <div className="flex space-x-4 mt-4 md:mt-0">

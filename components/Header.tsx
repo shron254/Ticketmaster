@@ -14,11 +14,11 @@ function Header() {
   };
 
   return (
-  <header className="p-5 fixed bg-gray-100 w-full shadow-2xl">
+  <header className="p-5 fixed bg-gray-800 w-full shadow-2xl">
     <Link href='/'>
-      <h1 className="md:text-4xl text-xl font-bold text-blue-900">Ticket.net</h1>
+      <h1 className="md:text-4xl text-xl font-bold text-blue-500">Ticket.net</h1>
       <div className=" flex whitespace-nowrap space-x-5 md:text-3xl text-sm lg:text-2xl">
-        <h2>Bringing your Events</h2>
+        <h2 className="text-white">Bringing your Events</h2>
         <div className="relative">
             <div className="absolute bg-blue-500 -left-2 -top-1
             -bottom-1 -right-2 md:-top-0 md:-bottom-0
@@ -34,9 +34,9 @@ function Header() {
 {/* Nav Toggle Button */}
 <div className="absolute top-10 right-5 flex md:hidden">
         {isNavOpen ? (
-          <X className="w-8 h-8 text-purple-500 cursor-pointer" onClick={toggleNav} />
+          <X className="w-8 h-8 text-white cursor-pointer" onClick={toggleNav} />
         ) : (
-          <Menu className="w-8 h-8 text-purple-500 cursor-pointer" onClick={toggleNav} />
+          <Menu className="w-8 h-8 text-white cursor-pointer" onClick={toggleNav} />
         )}
       </div>
 
