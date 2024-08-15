@@ -51,7 +51,7 @@ export default function Home() {
           <BadgeHelp className="ml-4 text-blue-600 w-8 h-8 border rounded-full bg-white p-1" />
           <div className="m-2">
             <p className="text-white text-sm">24/7 Customer Support</p>
-            <p className="text-white text-sm">We're here to help you...</p>
+            <p className="text-white text-sm">We are here to help you...</p>
           </div>
           <ChevronRight className="text-orange-600 ml-3" />
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center gap-4">
           <Shield className="ml-4 text-red-600 w-8 h-8 border rounded-full bg-white p-1" />
           <div className="m-2">
-            <p className="text-white text-sm">Fast & Secure Shipping</p>
+            <p className="text-white text-sm">Fast and Secure Shipping</p>
             <p className="text-white text-sm">Get it delivered quickly...</p>
           </div>
           <ChevronRight className="text-orange-600 ml-3" />
