@@ -1,9 +1,15 @@
 import { GPTScript } from "@gptscript-ai/gptscript";
+import Configuration from "openai";
 
-// Check the actual method or property used for model configuration in your library
-const g = new GPTScript({
-    APIKey: process.env.OPENAI_API_KEY,
-    DefaultModel: "gpt-3.5-turbo", // Example: using modelVersion instead of model
+// Correctly configure the API with the configuration object
+const configuration = new Configuration({
+    apiKey: process.env.OPENAI_API_KEY,
 });
 
-export default g;
+
+// If you need the GPTScript instance
+const g = new GPTScript({
+    APIKey: process.env.OPENAI_API_KEY,
+});
+
+export { g };
