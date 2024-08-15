@@ -11,6 +11,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { CircleCheckBig } from "lucide-react";
 import Footer from "@/components/Footer";
+import { Flower } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
+
 
 // Example product data
 const products = [
@@ -35,9 +38,13 @@ export default function Home() {
       </div>
     </div>
 
-      <div className="h-20 mt-14 md:w-56 w-full bg-gradient-to-r from-orange-600 to-blue-600 flex flex-row">
-                    
-        <p className="text-center text-white text-xs py-1">Mix with Ancol Entrance Ticket</p>
+      <div className="h-20 mt-14 md:w-56 w-full bg-gradient-to-r from-orange-600 to-blue-600 flex flex-row items-center">
+        <Flower className="ml-5 text-purple-600 border rounded-full bg-white p-1" />            
+        <div className="m-2">
+        <p className=" text-white text-sm">Lowest price guarantee</p>
+        <p className=" text-white text-sm">Found Cheaper ones...</p>
+        </div>
+        <ChevronRight className="text-orange-600 ml-10"/>
       </div>
 
 
