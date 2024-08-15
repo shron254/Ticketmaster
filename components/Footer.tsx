@@ -23,7 +23,7 @@ export default function Footer() {
 
               <div>
               <h1 className="text-lg">Secure your transaction</h1>
-              <div className="flex items-center md:gap-3 gap-1">
+              <div className="flex items-center justify-center md:gap-3 gap-1">
                 <Image src={Visa} alt="Partnership Logo" width={70} height={40} />
                 <Image src={Master} alt="Partnership Logo" width={70} height={40} />
                 <Image src={Jcb} alt="Partnership Logo" width={70} height={40} />
