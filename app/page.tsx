@@ -84,7 +84,7 @@ export default function Home() {
 
   return (
     <main className="flex-1 flex flex-col mt-24">
-      <div className="fixed bg-white w-full -mt-2 md:hidden">
+      <div className="fixed bg-white w-full -mt-2 md:hidden z-50">
         <div className="flex flex-row justify-between p-1 px-4 my-3">
           <button className="border border-black rounded-lg px-2">All</button>
           <button className="border border-black rounded-lg px-2">Seminars</button>
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       {/* Carousel */}
-      <div className="relative h-20 mt-14 md:w-56 w-full overflow-hidden">
+      <div className="relative h-20 mt-14 md:w-56 w-full overflow-hidden z-10">
         {carouselItems.map((item, index) => (
           <div
             key={item.id}

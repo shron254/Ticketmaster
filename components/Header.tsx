@@ -14,7 +14,7 @@ function Header() {
   };
 
   return (
-  <header className="p-5 fixed bg-gray-700 w-full shadow-2xl">
+  <header className="p-5 fixed bg-gray-700 w-full shadow-2xl z-50">
     <Link href='/'>
       <h1 className="md:text-4xl text-xl font-bold text-blue-500">Ticket.net</h1>
       <div className=" flex whitespace-nowrap space-x-5 md:text-3xl text-sm lg:text-2xl">
