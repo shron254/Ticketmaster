@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Lingom from "@/public/images/lingom.jpg";
 import Vacay from "@/public/images/vacay.jpg";
-import Easpa from "@/public/images/espa.webp";
-import Revolute from "@/public/images/revolute.webp";
-import Michael from "@/public/images/michael.webp";
-import Dearest from "@/public/images/Dearest.webp";
+import Dheva from "@/public/images/dheva.jpg";
+import Gemini from "@/public/images/gemini.png";
+import Billy from "@/public/images/billy.jpeg";
+import Young from "@/public/images/young.jpeg";
 import Riize from "@/public/images/riize.webp";
 import Enhypen from "@/public/images/enhypen.webp";
 import Link from "next/link";
@@ -19,10 +19,10 @@ import { Flower, ChevronRight, BadgeHelp, Shield } from "lucide-react";
 const products = [
   { id: '8', name: 'Dear my Love LING & ORM Fan Meeting 2024', image: Lingom, date: '08 Sep 2024', location: 'IMPACT Exhibition Hall 5', price: 'BAHT 7,800' },
   { id: '9', name: '2024 KIM SUNG KYU CONCERT[LV3 : Lets Vacay] in Bangkok', image: Vacay, date: '24 Aug 2024', location: 'MCC Hall The Mall', price: 'BAHT 6,000' },
-  { id: '10', name: '2024 aespa Live Tour - SYNK: PARALLEL LINE in JAKARTA', image: Easpa, date: '24 Aug 2024', location: 'Jakarta', price: 'IDR 1,455,000' },
-  { id: '11', name: '2024 Red Velvet FANCON TOUR HAPPINESS : My Dear, ReVe1uv in Jakarta', image: Revolute, date: '07 Sep 2024', location: 'Jakarta', price: 'IDR 1,785,000' },
-  { id: '12', name: '2024 DOYOUNG CONCERT [ Dear Youth, ] in JAKARTA', image: Dearest, date: '21 Sep 2024', location: 'Jakarta', price: 'IDR 1,495,000' },
-  { id: '13', name: "2024 RIIZE FAN-CON 'RIIZING DAY' in JAKARTA", image: Riize, date: '31 Aug 2024', location: 'Jakarta', price: 'IDR 1,955,000' },
+  { id: '10', name: 'DHEVAPROM FAN CON AFTER PARTY', image: Dheva, date: '25 Aug 2024', location: 'Paragon Hall', price: 'BAHT 5,800' },
+  { id: '11', name: 'GEMINI FOURTH RUN THE WORLD CONCERT', image: Gemini, date: '31 Aug 2024', location: 'Impact Arena', price: 'BAHT 7,500' },
+  { id: '12', name: 'BILLYBABE FANCOM', image: Billy, date: '24 Aug 2024', location: 'ISLAND HALL', price: 'BAHT 5,000' },
+  { id: '13', name: "2024 DOYOUNG CONCERT [ Dear Youth, ]in BANGKOK", image: Young, date: '31 Aug 2024', location: 'Jakarta', price: 'IDR 1,955,000' },
   { id: '14', name: 'ENHYPEN WORLD TOUR “FATE PLUS” IN JAKARTA - SHOW DAY 1 (AUGUST 17)', image: Enhypen, date: '17 Aug 2024', location: 'Jakarta', price: 'IDR 1,450,000' },
 ];
 

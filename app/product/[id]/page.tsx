@@ -36,6 +36,26 @@ const products = [
   { id: '9', name: '2024 KIM SUNG KYU CONCERT[LV3 : Lets Vacay] in Bangkok', image: '/images/vacay.jpg', date: '24 Aug 2024', location: 'MCC Hall The Mall Lifestore Ngamwongwan', price: 'BAHT 6,000', 
   description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
   early:'A1, A2: BAHT 6,000', presale:'B1, B2: BAHT 5,000' },
+
+  { id: '10', name: 'DHEVAPROM FAN CON AFTER PARTY', image: '/images/dheva.jpg', date: '25 Aug 2024', location: 'Paragon Hall', price: 'BAHT 5,800', 
+  description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
+  early:'A1, A2: BAHT 5,800', presale:'B1, B2: BAHT 3,800' },
+
+  { id: '11', name: 'GEMINI FOURTH RUN THE WORLD CONCERT', image: '/images/gemini.png', date: '31 Aug 2024', location: 'Impact Arena, Muang Thong Thani /Live Streaming by TTM LIVE /RERUN by TTM LIVE', price: 'BAHT 7,500', 
+  description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
+  early:'A1, A2: BAHT 7,500', presale:'B2: BAHT 7,000' },
+
+  { id: '12', name: 'BILLYBABE FANCOM', image: '/images/billy.jpeg', date: '24 Aug 2024', location: 'ISLAND HALL , FASHION ISLAND / Live Streaming by TTM LIVE', price: 'BAHT 5,000', 
+  description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
+  early:'Green: BAHT 5,000', presale:'Yellow: BAHT 3,500' },
+
+  { id: '13', name: '2024 DOYOUNG CONCERT [ Dear Youth, ]in BANGKOK', image: '/images/young.jpeg', date: '24 Aug 2024', location: 'UOB Life, Msphere', price: 'BAHT 6,500', 
+  description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
+  early:'VIP: BAHT 6,500', presale:'A, B: BAHT 5,500' },
+
+  { id: '14', name: 'GEMINI FOURTH RUN THE WORLD CONCERT', image: '/images/gemini.png', date: '31 Aug 2024', location: 'Impact Arena, Muang Thong Thani /Live Streaming by TTM LIVE /RERUN by TTM LIVE', price: 'BAHT 7,500', 
+  description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
+  early:'A1, A2: BAHT 7,500', presale:'B2: BAHT 7,000' },
 ];
 
 // Server-side component to fetch and render product details based on id
