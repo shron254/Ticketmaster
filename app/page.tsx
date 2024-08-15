@@ -38,13 +38,13 @@ export default function Home() {
       </div>
     </div>
 
-      <div className="h-20 mt-14 md:w-56 w-full bg-gradient-to-r from-orange-600 to-blue-600 flex flex-row items-center">
-        <Flower className="ml-8 text-purple-600 w-8 h-8 border rounded-full bg-white p-1" />            
+      <div className="h-20 mt-14 md:w-56 w-full bg-gradient-to-r from-orange-600 to-blue-600 flex flex-row items-center justify-between">
+        <Flower className="ml-4 text-purple-600 w-8 h-8 border rounded-full bg-white p-1" />            
         <div className="m-2">
         <p className=" text-white text-sm">Lowest price guarantee</p>
         <p className=" text-white text-sm">Found Cheaper ones...</p>
         </div>
-        <ChevronRight className="text-orange-600 ml-10"/>
+        <ChevronRight className="text-orange-600 ml-3"/>
       </div>
 
 
