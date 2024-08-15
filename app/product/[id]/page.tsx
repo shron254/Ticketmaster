@@ -28,6 +28,14 @@ const products = [
   { id: '5', name: '2024 DOYOUNG CONCERT [ Dear Youth, ] in JAKARTA', image: '/images/Dearest.webp', date: '21 Sep 2024', location: 'Jakarta', price: 'IDR 1,495,000', description: 'Experience the soulful performance of DOYOUNG in his Dear Youth concert in Jakarta.' },
   { id: '6', name: "2024 RIIZE FAN-CON 'RIIZING DAY' in JAKARTA", image: '/images/riize.webp', date: '31 Aug 2024', location: 'Jakarta', price: 'IDR 1,955,000', description: 'Join the RIIZING DAY celebration with RIIZE in Jakarta!' },
   { id: '7', name: 'ENHYPEN WORLD TOUR “FATE PLUS” IN JAKARTA - SHOW DAY 1 (AUGUST 17)', image: '/images/enhypen.webp', date: '17 Aug 2024', location: 'Jakarta', price: 'IDR 1,450,000', description: 'Don\'t miss ENHYPEN\'s Fate Plus World Tour in Jakarta!' },
+
+  { id: '8', name: 'Dear my Love LING & ORM Fan Meeting 2024', image: '/images/lingom.jpg', date: '08 Sep 2024', location: 'IMPACT Exhibition Hall 5', price: 'BAHT 7,800', 
+  description: '7,800 / 5,800 / 3,800 / 2,800 / 1,800 BAHT. Every seat at every price receives a commemorative hard ticket.Use paper tickets to enter the event *',
+  early:'A2, A3: BAHT 7,800', presale:'A1, A4: BAHT 5,800' },
+
+  { id: '9', name: '2024 KIM SUNG KYU CONCERT[LV3 : Lets Vacay] in Bangkok', image: '/images/vacay.jpg', date: '24 Aug 2024', location: 'MCC Hall The Mall Lifestore Ngamwongwan', price: 'BAHT 6,000', 
+  description: 'Payment can be made as follows: 1. Credit or debit card (Convenience fee 3%) 2. Instant payment via K Pay Plus, BBL iBanking applications (Convenience fee 0.5%) / Shopee Pay, True Money, Alipay, WeChat pay, Union Pay (Convenience fee 3%)',
+  early:'A1, A2: BAHT 6,000', presale:'B1, B2: BAHT 5,000' },
 ];
 
 // Server-side component to fetch and render product details based on id
